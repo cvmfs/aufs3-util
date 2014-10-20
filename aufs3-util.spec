@@ -15,6 +15,8 @@ BuildRequires: sed
 BuildRequires: binutils
 BuildRequires: /usr/include/linux/aufs_type.h
 
+Provides: libau.so.2()(64bit)
+
 %description
 User space utilities for aufs3 kernel module (union file system).
 Mount helpers etc.
